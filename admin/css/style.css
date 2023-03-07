@@ -1,0 +1,99 @@
+.wrapper{
+    height: 100%;
+   background-color: #fff;
+}
+.header{
+    display: flex;
+    justify-content: center;  
+    background-color: #8683ae;
+}
+.header_box{}
+.h1{
+background-color: beige;
+}
+
+.header-heading{
+    font-size: 3.5rem;
+}
+.main{
+    display: flex;
+    height: 100%;
+}
+
+.menu{
+    background-color: rgb(165, 186, 186);
+ width: 300px;
+ height: 17000px;
+ border: 13px;
+}
+.menu_contain{
+    width: 100%;
+    background-color: beige;
+}
+.menu_list{
+    display: block;
+    list-style: none; 
+     text-decoration:  none;
+}
+.menu_list-link{
+    text-decoration: none;
+    display: block;
+    font-size: 1.6rem;
+    padding-top: 10px;
+    
+   
+}
+.form_box{
+    display: flex;
+}
+.box_1{
+
+display: block;
+background-color: rgb(156, 134, 134);
+
+height: 1410px;
+width: 1415px;
+}
+.box_2{
+
+    display: block;
+    background-color: rgb(139, 146, 152);
+    height:100%;
+width: 1415px;
+    }
+.product{
+    border: 5px solid black;
+    display: block;
+    width: 300px;
+    height: 400px;
+}
+.product-type{
+    margin-left: 30px;
+  height: 30px;
+width: 300px;
+font-size: 20px;
+border: none;
+}
+.product-type :focus{
+ 
+border: none;
+}
+.product-name{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btn-insert{
+    border-radius: 50px;
+    border: none;
+     margin-top: 30px;
+     margin-left: 90px ;
+   font-size: 25px ;
+   background-color: #ee4e21;
+}
+/* .product-btn:hover{
+    background-color: rgb(42, 137, 137);
+} */
+.control-btn{
+    text-decoration: none;
+}
